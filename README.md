@@ -11,6 +11,13 @@
 
 This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series Foundation Model (FM), to perform zero-shot and fine-tuned forecasting on temperature and precipitation data from six different regions of the Amazon.
 
+> **Significance:**
+Why is it important to forecast precipitation and temperature multiple months ahead:
+
+The Amazon faces worsening droughts, extreme heat, and fire risks that disrupt ecosystems, transport, and livelihoods.
+Predicting rainfall and temperature months ahead enables early resource planning, better water and energy management, and proactive fire prevention.
+These forecasts give governments and industries critical lead time to reduce damage and protect both people and the forest.
+
 ---
 
 ## ✨ Key Features
