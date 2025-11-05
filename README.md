@@ -35,7 +35,7 @@ This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series
 
 ---
 
-## 2. Data
+## Data
 ### Sources
 Temperature and precipitation data were obtained from the **Climatic Research Unit Time Series (CRU-TS)** dataset, a gridded monthly product at **0.5° × 0.5°** spatial resolution.  
 Values were **aggregated into six Amazonian sub-regions** using an **area-weighted spatial average**.
