@@ -35,6 +35,44 @@ This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series
 
 ---
 
+## 2. Data
+### Sources
+Temperature and precipitation data were obtained from the **Climatic Research Unit Time Series (CRU-TS)** dataset, a gridded monthly product at **0.5° × 0.5°** spatial resolution.  
+Values were **aggregated into six Amazonian sub-regions** using an **area-weighted spatial average**.
+
+### Regional Map
+
+The six Amazonian sub-regions used for aggregation are shown below.
+
+<img src="assets/Amazon_Regions.png" alt="Regions" width="300"/>
+
+The combined dataset spans **January 1950 – December 2023** and is stored in:  
+`DATA/Amazon.csv`
+
+---
+
+### Variables
+
+Each column in the dataset corresponds to a specific variable and region:
+
+| Variable | Description | Units | Regions |
+|-----------|--------------|--------|----------|
+| **pre_Region1 … pre_Region6** | Monthly total precipitation | mm month⁻¹ | Region 1–6 |
+| **spi3_Region1 … spi3_Region6** | 3-month Standardized Precipitation Index (SPI3) | dimensionless | Region 1–6 |
+| **tmp_Region1 … tmp_Region6** | Monthly mean temperature | °C | Region 1–6 |
+| **tmp3_Region1 … tmp3_Region6** | 3-month running mean temperature | °C | Region 1–6 |
+
+---
+
+### Pre-processing
+
+1. **Spatial aggregation** – 0.5° CRU-TS grid cells within each Amazonian sub-region were averaged using area weighting based on latitude-adjusted cell area.  
+2. **Temporal alignment** – Monthly CRU-TS data were matched to corresponding NOAA climate indices.  
+3. **Derived indices**  
+   - `spi3_*` computed from precipitation totals using a 3-month accumulation window.  
+   - `tmp3_*` computed as a centered 3-month moving average of monthly temperature.  
+
+
 ## 📊 Exploratory Data Analysis (EDA)
 
 Before forecasting, we needed to understand our data. We analyzed trends, seasonality, and correlations across all regions.
