@@ -38,8 +38,6 @@ This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series
 ## 📊 Exploratory Data Analysis (EDA)
 
 Before forecasting, we needed to understand our data. We analyzed trends, seasonality, and correlations across all regions.
-
-<summary><b>Click to expand and see our full EDA</b></summary>
   
 ### 1. Temperature Over Time
 We see clear seasonal patterns and different base temperatures across the six regions.
