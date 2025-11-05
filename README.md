@@ -136,6 +136,7 @@ The model also does a credible job of capturing the much more volatile precipita
 * Sanaa
 * Verrah
 * Matan
+<img src="assets/team.jpg" width="60%">
 
 ---
 
