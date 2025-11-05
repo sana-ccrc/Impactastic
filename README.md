@@ -7,11 +7,11 @@
   <br>
 </p>
 
-> **Our Mission:** To leverage the power of large-scale, pre-trained Foundation Models to forecast climate trends in the Amazon, providing an impactful tool for researchers and conservationists.
+**Our Mission:** To leverage the power of large-scale, pre-trained Foundation Models to forecast climate trends in the Amazon, providing an impactful tool for researchers and conservationists.
 
 This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series Foundation Model (FM), to perform zero-shot and fine-tuned forecasting on temperature and precipitation data from six different regions of the Amazon.
 
-> **Significance:**
+**Significance:**
 Why is it important to forecast precipitation and temperature multiple months ahead:
 
 The Amazon faces worsening droughts, extreme heat, and fire risks that disrupt ecosystems, transport, and livelihoods.
