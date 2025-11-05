@@ -44,7 +44,7 @@ Values were **aggregated into six Amazonian sub-regions** using an **area-weight
 
 The six Amazonian sub-regions used for aggregation are shown below.
 
-<img src="assets/Amazon_Regions.png" alt="Regions" width="300"/>
+<img src="assets/Amazon_Regions.png" alt="Regions" width="500"/>
 
 The combined dataset spans **January 1950 – December 2023** and is stored in:  
 `DATA/Amazon.csv`
