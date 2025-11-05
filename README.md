@@ -5,7 +5,6 @@
   <br>
   A project by <b>Impactastic</b> 🚀
   <br>
-  <i>(A 5-Hour Hackathon Project)</i>
 </p>
 
 > **Our Mission:** To leverage the power of large-scale, pre-trained Foundation Models to forecast climate trends in the Amazon, providing an impactful tool for researchers and conservationists.
