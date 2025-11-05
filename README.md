@@ -1,7 +1,7 @@
 # 🌳 AmazoCast-FM  predicting 
 
 <p align="center">
-  <img src="" alt="Project Logo" width="200"/>
+  <img src="assets/Logo.png" alt="Project Logo" width="200"/>
   <br>
   A project by <b>Impactastic</b> 🚀
   <br>
