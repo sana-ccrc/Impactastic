@@ -39,7 +39,6 @@ This project uses IBM's **TinyTimeMixers (TTM)**, a state-of-the-art Time-Series
 
 Before forecasting, we needed to understand our data. We analyzed trends, seasonality, and correlations across all regions.
 
-<details>
 <summary><b>Click to expand and see our full EDA</b></summary>
   
 ### 1. Temperature Over Time
@@ -63,8 +62,6 @@ The heatmap shows (as expected) that temperatures in different regions are highl
   <img src="assets/Correlation Heatmap (All Variables).png" width="49%">
   <img src="assets/Autocorrelation (ACF) and Partial Autocorrelation (PACF).png" width="49%">
 </p>
-
-</details>
 
 ---
 
